@@ -4,11 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class SomeController {
+public class DateController {
 
-    @GetMapping("/today")
+    @GetMapping("/DateToday")
     public String today() {
-        return "today";
+        return "DateToday";
     }
 
 }
